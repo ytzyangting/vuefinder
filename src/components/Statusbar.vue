@@ -23,6 +23,7 @@
       <select v-model="locale" @change="changeLocale($event.target.value)"
               class="py-0.5 text-sm text-slate-500 dark:text-neutral-50 dark:bg-gray-700 rounded pl-2 pr-8 mr-3">
         <option value="" disabled>{{ t('Language') }}</option>
+        <option value="ch">中文</option>
         <option value="en">English</option>
         <option value="fr">French</option>
         <option value="fa">Persian</option>
